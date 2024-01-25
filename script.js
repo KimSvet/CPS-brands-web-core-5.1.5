@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         brandItems = document.querySelectorAll('.brands-container__item:nth-child(n+11)');
     } else if (window.innerWidth > 768) {
         brandItems = document.querySelectorAll('.brands-container__item:nth-child(n+9)');
-    } else if (window.innerWidth > 320) {
+    } else if (window.innerWidth > 430) {
         brandItems = document.querySelectorAll('.brands-container__item:nth-child(n+7)');
     } 
     

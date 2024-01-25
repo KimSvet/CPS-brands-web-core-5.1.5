@@ -1,7 +1,7 @@
 const brands = document.querySelector('.brands');
 const brandsContainer = document.querySelector('.brands-container');
 const brandsContainerItems = document.querySelectorAll('.brands-container__item');
-if (window.innerWidth <= 320) {
+if (window.innerWidth <= 430) {
   brands.classList.add('swiper');
   brandsContainer.classList.add('swiper-wrapper');
   for (let item of brandsContainerItems) {
@@ -14,5 +14,6 @@ const swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
   },
 
-  slidesPerView: 1.25,
+
+  slidesPerView: 'auto',
 });

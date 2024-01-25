@@ -16,7 +16,7 @@ button {
     url(./TTLakes/TTLakes-Regular.woff) format("woff");
 }
 
-main {
+html {
     background-color: #F8F8F8;
     padding-bottom: 66px;
     
@@ -90,13 +90,14 @@ main {
     display: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 430px) {
     main {
         min-width: 270px;
     }
     .brands {
-        width: 320px;
+        width: 100%;
         height: 120px;
+        overflow: visible;
     }
     .repair-head {
         padding: 16px;
@@ -138,7 +139,7 @@ main {
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 431px) and (max-width: 768px) {
     main {
         min-width: 520px;
     }
